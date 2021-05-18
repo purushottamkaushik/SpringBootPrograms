@@ -1,0 +1,22 @@
+my:
+  app:
+    title: ABC-DEFAULT
+spring:
+  profiles:
+    active: QA,PROD
+---
+
+my:
+  app:
+    title: QA TITLE
+
+spring:
+  profiles: QA
+
+---
+my:
+  app:
+    title: PROD-TITLE
+
+spring:
+  profiles: PROD

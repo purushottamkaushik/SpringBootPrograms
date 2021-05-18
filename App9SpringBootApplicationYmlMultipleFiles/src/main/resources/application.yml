@@ -1,0 +1,30 @@
+spring:
+  profiles: default
+
+my:
+  app:
+    username: DefaultUsername
+    password: Defaultpassword
+
+---
+spring:
+  profiles: prod
+
+my:
+  app:
+    username: ProdUsername
+    password: Prodpassword
+
+---
+
+spring:
+  profiles: qa
+
+my:
+  app:
+    username: QaUsername
+    password: QaPassword
+
+
+
+

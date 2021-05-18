@@ -1,0 +1,34 @@
+
+my:
+  app:
+    id: abc
+    code: A
+    cost: 300
+    details:
+      - L1
+      - L2
+      - L3
+    demoMap:
+      k1: v1
+      k2: v2
+    demoProps:
+      p1: hello
+      p2: demo
+
+spring:
+  ds:
+    driver: oracle
+    url: jdbc
+    un: nit
+    pwd: abc
+    grade: A
+    mode: none
+  ctx:
+    service: TWO
+    flte: Active
+
+code:
+  model:
+    status: ONE
+    format: TEN
+
